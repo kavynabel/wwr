@@ -77,3 +77,6 @@ footer h3 a:hover{
 #hero-img{
     width: 100%;
 }
+.social a{
+    text-decoration: none;
+}
