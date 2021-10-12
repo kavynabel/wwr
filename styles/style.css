@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Scheherazade+New&display=swap');
+
 #content { 
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ header nav a{
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -16,12 +19,19 @@ header nav a{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: #ade8f4;
 }
 body{
     background-color: white;
+    font-family: Scheherazade New, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #84D5FF;
@@ -34,6 +44,10 @@ nav a:hover{
     background-color: #84D5FF;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #84D5FF;
@@ -41,21 +55,33 @@ nav a:hover{
 }
 .msg{
     background-color: #0077b6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: black;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .msg h2{
-    color: white;
+    color: black;
+    font-family: "Permanent Marker", sans-serif;
+    margin: 0;
+
 }
 .msg p{
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .footer h3{
     color: black;
@@ -70,6 +96,7 @@ footer h3 a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -79,4 +106,19 @@ footer h3 a:hover{
 }
 .social a{
     text-decoration: none;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer.social img{
+    padding-top: 15px;
+}
+.rivers-card,   .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+.mountains{
+    margin-top: 15px;
 }
